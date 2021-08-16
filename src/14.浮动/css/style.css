@@ -1,0 +1,31 @@
+.father{
+    border: 1px solid red;
+
+    /*(1)
+        height: 500px;
+    */
+
+    /*(3)
+        overflow: hidden;
+    */
+}
+
+/*(4)
+    .father:after{
+        content: '';
+        display: block;
+        clear: both;
+}
+*/
+
+div img{
+    float: right;
+}
+
+/*(2)
+    .clear{
+        clear: both;
+        margin: 0;
+        padding: 0;
+    }
+*/

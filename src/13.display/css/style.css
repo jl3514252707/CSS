@@ -1,0 +1,52 @@
+/*
+    block: 块元素，独占一行
+    inline: 行内元素，多个可以在一行
+    inline-block: 可以在一行的块元素
+*/
+
+
+
+body{
+    margin: 0;
+}
+
+div{
+    background: sienna;
+
+}
+
+
+
+ul li{
+    display: inline-block;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#title{
+    font-size: 30px;
+    font-family: 楷体, serif;
+}
+
+#deng {
+    border: 1px solid yellow;
+    border-radius: 20px;
+    width: 75px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: yellow;
+}
+
+#kai{
+    background: yellow;
+    color: sienna;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}

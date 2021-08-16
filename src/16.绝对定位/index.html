@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        div{
+            margin: 20px;
+            padding: 20px;
+        }
+
+        #father{
+            border: 1px solid red;
+            /*position: relative;*/
+        }
+
+        #first{
+            background: yellow;
+            border: 1px solid red;
+
+        }
+
+        #second{
+            background: blue;
+            border: 1px solid red;
+        }
+
+        #third{
+            background: green;
+            border: 1px solid red;
+
+            /*
+                父级元素没有定位时，相对浏览器偏移
+                父级元素有定位时，相对父级元素偏移
+            */
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="father">
+    <div id="first">第一个盒子</div>
+    <div id="second">第二个盒子</div>
+    <div id="third">第三个盒子</div>
+</div>
+
+</body>
+</html>

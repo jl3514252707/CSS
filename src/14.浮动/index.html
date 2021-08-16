@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--解决父级边框塌陷的问题
+        1.增加父级元素的高度
+        2.增加一个空的div标签，清楚浮动
+        3.在父级元素中增加一个overflow
+        4.父类添加一个伪类（推荐）
+    -->
+
+</head>
+<body>
+
+<div class="father">
+    <img src="../../source/image/bilibili.png" alt="">
+    <img src="../../source/image/bilibili.png" alt="">
+    <img src="../../source/image/bilibili.png" alt="">
+    边框会塌陷吗？
+    <!--(2)
+        <div class="clear"></div>
+    -->
+</div>
+
+</body>
+</html>

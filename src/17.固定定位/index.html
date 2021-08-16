@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body{
+            height: 1000px;
+        }
+
+        /*
+            绝对位置：相对于浏览器的初始位置，会随页面进行移动
+            固定位置：相对于窗口的位置，永远固定在一个位置
+        */
+        div:nth-of-type(1){
+            width: 200px;
+            height: 200px;
+            background: red;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        div:nth-of-type(2){
+            width: 100px;
+            height: 100px;
+            background: aqua;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<div>我是初始位置在右下角</div>
+<div>我永远在右下角</div>
+
+
+</body>
+</html>

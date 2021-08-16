@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--标签[属性=属性值]{}
+        =  绝对等于
+        *= 包含
+        ^= 以此开头
+        ￥= 以此结尾
+    -->
+    <style>
+        a[class="images"]{
+             background: gold;
+        }
+
+        a[id]{
+            color: red;
+        }
+
+        a[href="https://www.baidu.com"]{
+            background: aquamarine;
+        }
+
+        a[href*=www]{
+            background: antiquewhite;
+        }
+
+        a[href^=https]{
+            color: chartreuse;
+        }
+
+        a[href$=html]{
+            color: brown;
+        }
+    </style>
+
+</head>
+<body>
+
+<p>
+    <a href="https://www.baidu.com" class="sites" id="baidu">1</a>
+    <a href="css/style.css" class="images" id="jpg">2</a>
+    <a href="index.html" class="images" id="png">3</a>
+    <a href="https://www.jianfast.com">4</a>
+</p>
+
+</body>
+</html>

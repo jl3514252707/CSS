@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--盒子模型
+        margin:外边距
+        padding:内边距
+        border:边框
+    -->
+
+    <style>
+        /*margin
+            四个参数:上 右 下 左
+            两个参数:上下 左右
+            一个参数：四个方向
+        */
+
+        /*border-radius（边框角的弧度）
+            四个参数：左上 右上 右下 左下
+            两个参数：左上右下 右上左下
+            一个参数：四个角
+        */
+        body{
+            margin: 200px auto auto auto;
+            width: 300px;
+            border: 1px solid black;
+            border-radius: 20px 20px 0 0;
+            /*阴影：x轴偏移 y轴偏移 阴影半径 颜色*/
+            box-shadow: 10px 10px 1px yellow;
+        }
+
+        h2{
+            text-align: center;
+            background: aqua;
+        }
+
+        form{
+            border: 1px solid black;
+            background: red;
+        }
+
+        /*border:粗细 线条样式 颜色*/
+        form input{
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+
+<div>
+  <h2>会员登陆</h2>
+    <form action="#" method="get">
+        <p>
+            <label>
+                用户名：
+                <input type="text">
+            </label>
+        </p>
+        <p>
+            <label>
+                密码：
+                <input type="password">
+            </label>
+        </p>
+        <p>
+            <label>
+                邮箱：
+                <input type="email">
+            </label>
+        </p>
+    </form>
+</div>
+
+</body>
+</html>
